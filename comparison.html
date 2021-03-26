@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Latitude</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .col-1 {width: 8%;}
+      .col-2 {width: 17%;}
+      .col-3 {width: 24%;}
+      .col-4 {width: 32%;}
+      .col-5 {width: 40%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 60%;}
+      .col-8 {width: 65%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 82%;}
+      .col-11 {width: 92%;}
+      .col-12 {width: 100%;}
+
+  
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Plots</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown04">
+              <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
+              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <div class="content">
+    <div class="container-fluid p-5 mb-4 bg-light rounded-3 container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box">
+                <div class="header">
+                  <h1 class="title">Comparison: Latitude vs. X</h1>
+                <p class="category">Click any plot to get in_depth analysis.</p>
+              </div>
+                <div class="content">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-6">
+                    <h2>vs. Max Temperature</h2>
+                    <a href="temp.html"><img class="img-fluid" src="images/Fig1.png" alt="Latitude vs. Max Temperature" height="500" width="500"></a>
+                 </div>
+                 <div class="col-xs-12 col-sm-12 col-md-6">
+                    <h2>vs. Humidity</h2>
+                    <a href="humidity.html"><img class="img-fluid" src="images/Fig2.png" alt="Latitude vs. Humidity" height="500" width="500"></a>
+                 </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                     <h2>vs. Cloudiness</h2>
+                     <a href="cloudiness.html"><img class="img-fluid" src="images/Fig3.png" alt="Latitude   vs. Cloudiness" height="500" width="500"></a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                     <h2>vs. Wind Speed</h2>
+             <a href="windspeed.html"><img class="img-fluid" src="images/Fig4.png" alt="Latitude vs. Wind Speed" height="500" width="500"></a>
+          </div>	 
+              </div>
+            </div>
+          </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+  
+</main>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
